@@ -105,6 +105,11 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  .absolute_sticky > .container3 {
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+  }
 }
 
 .b {
