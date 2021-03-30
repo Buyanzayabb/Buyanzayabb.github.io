@@ -1,0 +1,256 @@
+$primary:#0B0996;
+$primary-logo:#FCA802;
+$primary-bg-color:#1B26C3;
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.start{  
+    background-color: $primary;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+@media screen and (max-width:1000px){
+    .start{
+        display: none;
+    }
+}
+.logo-1{
+    display: flex;
+    margin: 3px;
+}
+.logo-1:hover{
+    cursor: pointer;
+}
+.logo-2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+}
+.fb{
+    padding: 2px;
+}
+.ig{
+    padding: 2px;
+}
+.youtube{
+    padding: 2px;
+}
+.absolute_sticky{
+    position: sticky;
+    top:0;
+    z-index:30;
+    background-color: white;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+ }
+.compasso-logo{
+    font-size: 3rem;
+    color: $primary;
+    cursor: pointer;
+}
+ .moduls{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    font: 2rem;
+    color: $primary;
+}
+@media screen and (max-width:1000px){
+    .moduls{
+        display: none;
+    }
+    .absolute_sticky{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+.b{
+    margin: 1rem;
+    font-family: sans-serif;
+}
+.b:hover{
+    color: $primary-logo;
+}
+.main-div{
+    background-color:$primary-bg-color;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-div .text{
+    font-size: 2.3rem;
+    color: white;
+    cursor: pointer;
+}
+.hover{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    // margin-left: 17rem;
+    // margin-bottom: 5rem;
+}
+.a{
+    color: white;
+    border: 3px solid white;
+    padding: 10px 20px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.a:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in 0s;
+}
+.surgaltt{
+    margin-right: 1.3rem;
+}
+// .surgaltt:hover{
+//     border: 6px solid white;
+//     width:auto;
+//     height: auto;
+//     transition: border 1s ease-in-out 0s;
+// }
+// .vilcilgee:hover{
+//     border: 6px solid white;
+//     width:auto;
+//     height: auto;
+//     transition: border 1s ease-in-out 0s;
+// }
+.second-div{
+    width: 100%;
+    height:fit-content;
+    background-color: white;
+}
+.blog1{
+    color: $primary;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+.container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.row > *{
+    height: 20rem;
+    border: 5px solid white;
+    background-color:#F5F5F5;
+}
+.layouts img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.row img:hover{
+    object-fit:cover;
+}
+.row .text{
+    font-size: 1rem;
+    color: #47423E;
+    text-align: center;
+    cursor: pointer;
+}
+.row .text:hover{
+    color: $primary-bg-color;
+}
+.information-div{
+    width: 100%;
+    height: auto;
+    background-color:#090770;
+}
+.information > *{
+    width:20%;
+    height: auto;
+    border: 1px solid #090770;
+    background-color:#090770;
+    color: white;
+}
+.blog_1 img{
+    width: 45%;
+    padding-top: 8px;
+}
+.blog_1 img:hover{
+    cursor: pointer;
+}
+.blog_1 p:hover{
+    text-decoration: underline
+}
+textarea{
+    width: 12rem;
+    height: 2.5rem;
+}
+button{
+    width: fit-content;
+    height: 2rem;
+    display: block;
+    background-color: #3182CE;
+    color: white;
+    font-size: 8px
+}
+.end-div{
+    width: 100%;
+    height: 7rem;
+    background-color:#050451;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 7px;
+}
+.container3{
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:1000px){
+    .container3{
+        display: none;
+    }
+}
+.rectangular{
+    background-color:$primary;
+    flex-grow: 1;
+    align-items: center;
+    margin:0;
+    border-radius:15px;
+    transition: 1s transform ease-in-out;
+    cursor: pointer;
+}
+.one{
+    margin-bottom: 5px;
+}
+.two{
+    margin-bottom: 5px;
+    transition: 1s background-color ease-in-out;
+}
+.container3:hover .one{
+    transform: rotate(-45deg) translate(-50%);
+}
+.container3:hover .three{
+    transform: rotate(45deg) translate(-55%);
+}
+.container3:hover .two{
+    background-color:white;
+    transition: 1s background-color ease-in-out;
+}
+
+
+
+
+
