@@ -101,14 +101,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .absolute_sticky > .container3 {
-    position: relative;
-    top: 1rem;
-    right: 1rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -298,7 +292,6 @@ button {
   width: 30px;
   height: 30px;
   background-color: white;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

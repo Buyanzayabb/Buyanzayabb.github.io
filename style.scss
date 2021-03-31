@@ -69,12 +69,7 @@ $primary-bg-color:#1B26C3;
     .absolute_sticky{
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-    }
-    .absolute_sticky>.container3{
-        position: relative;
-        top: 1rem;
-        right: 1rem;
+        justify-content: space-around;
     }
 }
 .b{
@@ -102,8 +97,6 @@ $primary-bg-color:#1B26C3;
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
-    // margin-left: 17rem;
-    // margin-bottom: 5rem;
 }
 .a{
     color: white;
@@ -119,18 +112,6 @@ $primary-bg-color:#1B26C3;
 .surgaltt{
     margin-right: 1.3rem;
 }
-// .surgaltt:hover{
-//     border: 6px solid white;
-//     width:auto;
-//     height: auto;
-//     transition: border 1s ease-in-out 0s;
-// }
-// .vilcilgee:hover{
-//     border: 6px solid white;
-//     width:auto;
-//     height: auto;
-//     transition: border 1s ease-in-out 0s;
-// }
 .second-div{
     width: 100%;
     height:fit-content;
@@ -219,7 +200,6 @@ button{
     width: 30px;
     height: 30px;
     background-color:white;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
